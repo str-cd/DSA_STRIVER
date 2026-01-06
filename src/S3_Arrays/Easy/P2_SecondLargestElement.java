@@ -1,7 +1,4 @@
-package Arrays.Easy;
-
-import java.lang.reflect.Array;
-import java.util.*;
+package S3_Arrays.Easy;
 
 public class P2_SecondLargestElement {
     public static void main(String[] args) {

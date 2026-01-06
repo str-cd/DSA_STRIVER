@@ -1,6 +1,4 @@
-package Arrays.Easy;
-
-import java.util.Arrays;
+package S3_Arrays.Easy;
 
 public class P1_largestElement {
     public static void main(String[] args) {

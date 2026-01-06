@@ -1,7 +1,6 @@
-package Arrays.Easy;
+package S3_Arrays.Easy;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class P9_UnionOfTwoSortedArray {
 

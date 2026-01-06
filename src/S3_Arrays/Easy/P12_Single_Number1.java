@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package S3_Arrays.Easy;
 
 public class P12_Single_Number1 {
     public static void main(String[] args) {

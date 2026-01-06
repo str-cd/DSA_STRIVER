@@ -1,6 +1,4 @@
-package Arrays.Easy;
-
-import java.util.HashSet;
+package S3_Arrays.Easy;
 
 public class P4_RemoveDuplicates {
     public static void main(String[] args) {

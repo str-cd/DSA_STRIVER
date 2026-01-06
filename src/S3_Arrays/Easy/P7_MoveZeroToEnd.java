@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package S3_Arrays.Easy;
 
 public class P7_MoveZeroToEnd {
     public static void main(String[] args) {
