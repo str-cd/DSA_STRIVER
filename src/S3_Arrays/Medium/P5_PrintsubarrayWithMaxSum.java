@@ -8,7 +8,6 @@ public class P5_PrintsubarrayWithMaxSum {
         for(int i:res){
             System.out.print(i+" ");
         }
-
     }
 
     public static int [] maxSubArray(int[] nums) {
@@ -17,6 +16,7 @@ public class P5_PrintsubarrayWithMaxSum {
 
         int start =-1;
         int end = -1;
+
         for(int i=0;i<nums.length;i++){
             if(sum==0){
                 start=i;
@@ -33,9 +33,13 @@ public class P5_PrintsubarrayWithMaxSum {
             }
         }
 
+        int [] res = new int [(end - start) +1];
 
+        for(int i=0;i<res.length;i++){
+            res[i]= nums[start++];
+        }
 
-        return max;
+        return res;
 
     }
 }

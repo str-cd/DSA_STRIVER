@@ -35,13 +35,8 @@ public class P4_MaxSubarraySum {
         int start =-1;
         int end = -1;
         for(int i=0;i<nums.length;i++){
-            if(sum==0){
-                start=i;
-            }
             sum+=nums[i];
-
             if(sum>max){
-                end=i;
                 max=sum;
             }
 
@@ -49,8 +44,6 @@ public class P4_MaxSubarraySum {
                 sum=0;
             }
         }
-
-        System.out.println(start + " " + end);
         return max;
 
     }
