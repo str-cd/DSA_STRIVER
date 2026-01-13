@@ -1,4 +1,4 @@
-package S1_Basics.Maths;
+package S1_Basics.S5Maths;
 
 public class P4_GCDorHCF {
     public static void main(String[] args) {
@@ -18,7 +18,5 @@ public class P4_GCDorHCF {
         }
 
         System.out.println(res);
-
-
     }
 }

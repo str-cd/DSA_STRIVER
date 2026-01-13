@@ -1,4 +1,4 @@
-package S1_Basics.Maths;
+package S1_Basics.S5Maths;
 
 public class P2_Reverse_A_Number {
 
